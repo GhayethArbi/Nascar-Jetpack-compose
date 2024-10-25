@@ -49,7 +49,7 @@ fun NavButtons(navController: NavHostController) {
             )
         }
         Button(
-            onClick = {},
+            onClick = {navController.navigate("profile")},
             modifier = Modifier.weight(1f),
             colors = ButtonDefaults.buttonColors(
                 // Button background color

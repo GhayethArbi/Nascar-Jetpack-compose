@@ -35,6 +35,10 @@ fun NavigationScreen() {
             composable("events") {
                 Events()
             }
+            composable("profile")
+            {
+                Profile()
+            }
 
         }
     }
